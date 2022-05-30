@@ -33,6 +33,9 @@ gem "graphql"
 # Safer migrations
 gem "strong_migrations"
 
+# Cors setup
+gem 'rack-cors'
+
 group :development, :test do
   gem "rspec-rails"
 end
